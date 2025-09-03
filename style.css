@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #A4A400;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, Garamond, serif;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #A4A400;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, Garamond, serif;
+}
+
+body {
+    background-color: #fff;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #A4A400;
+    text-decoration: underline;
+}
+
+blockquote.testimonial {
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1em;
+    border-left: 4px solid #A4A400;
+}
+
+blockquote.testimonial b,
+blockquote.testimonial strong {
+    font-weight: bold;
+}
+
+.destination-page {
+    background-image: url('images/iceland.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+.destination-page .info-box {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    margin-bottom: 1.5em;
+    padding: 1.2em 1.5em;
+}
+
+.custom-bullets {
+    list-style: none;
+    padding-left: 1.5em;
+}
+.custom-bullets li {
+    background: url('images/bullet.png') no-repeat left 0.4em;
+    background-size: 1em 1em; 
+    padding-left: 2em;
+    margin-bottom: 0.5em;
+}
